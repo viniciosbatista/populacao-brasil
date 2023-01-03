@@ -1,0 +1,50 @@
+@charset "UTf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+caption{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-weight: bolder;
+    color: white;
+}
+table{
+    position: relative;
+    max-width: 90vw;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: #FFF8DC;
+}
+thead>tr>th{
+    position: sticky;
+    top: -1px;
+}
+td, th{
+    border: 1px solid;
+    padding: 10px;
+}
+th{
+    background-color:#B0E0E6;
+    color: rgb(0, 0, 0);
+}
+tfoot{
+    background-color: #B0E0E6;
+}
+a{
+    text-decoration: none;
+    
+}
+
+a:hover{
+    text-decoration: underline;
+}
+.estados{
+    text-align: left;
+}
